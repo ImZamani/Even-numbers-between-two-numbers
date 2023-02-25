@@ -10,13 +10,13 @@ btn.addEventListener("click", () => {
 
   if (receiveNum1 % 2 === 0) {
     while (receiveNum1 < receiveNum2) {
-      console.log(receiveNum1);
+      prompt(receiveNum1)
       receiveNum1 += 2;
     }
   } else {
     receiveNum1++;
     while (receiveNum1 < receiveNum2) {
-      console.log(receiveNum1);
+      prompt(receiveNum1)
       receiveNum1 += 2;
     }
   }
